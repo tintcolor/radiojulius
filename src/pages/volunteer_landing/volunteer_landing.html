@@ -1,0 +1,45 @@
+
+  <ion-header>
+    <ion-navbar>
+      <ion-title>
+        <div id="signup_image">
+          <ion-img src="<!--Place component here-->"></ion-img>Top Image
+          </div>
+      </ion-title>
+      <div id="map"></div>
+    </ion-navbar>
+  </ion-header>
+
+  <ion-content padding>
+    <div id="volunteer_map">
+    <p> Your IP address is: </p>
+    <sebm-google-map [latitude]="lat" [longitude]="lng" [zoom]="zoom">
+    <sebm-google-map-marker [latitude]="lat" [longitude]="lng"></sebm-google-map-marker>
+  </sebm-google-map>
+
+
+  <div id="menu">
+
+
+  </div>
+
+</div>
+  </ion-content>
+
+
+
+<!-- <ion-header>
+  <ion-navbar>
+    <ion-title>
+      Ionic Blank
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+  <button ion-item *ngFor="let item of items" (click)="itemSelected(item)">
+    {{ item.text }}
+  </button>
+</ion-list>
+</ion-content> -->

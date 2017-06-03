@@ -4,7 +4,7 @@ import { DetailPage } from '../detail/detail';
 
 @Component({
   selector: 'page-home',
-  templateUrl: 'home.html'
+  templateUrl: 'splash.html'
 })
 export class HomePage {
   items: any[];
